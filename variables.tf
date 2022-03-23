@@ -5,7 +5,7 @@
 variable "vpc_cidr" {
   type = map(string)
   default = {
-    stass_transit_vpc = "172.22.174.0/23"
+    ss_transit_vpc = "172.22.174.0/23"
 
     sta_transit_vpc = "172.22.176.0/23"
 
